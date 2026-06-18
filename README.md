@@ -66,14 +66,4 @@ export ANTHROPIC_API_KEY=your_api_key_here
 ## 3️⃣ Run Server
 python app.py
 ## 4️⃣ Open Browser
-
----
-### flowchart TD
-A[User Enters Topic] --> B[Flask Backend]
-B --> C[Claude AI Validation]
-C --> D{Valid Topic?}
-D -->|Yes| E[Generate Quiz]
-D -->|No| F[Return Error]
-E --> G[Send JSON Response]
-G --> H[Frontend Renders Quiz]
-H --> I[Show Score]
+http://localhost:5000
